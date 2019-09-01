@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_has"
+            tools:context="pw.sadbd.tourpatron.EventDetailsFragment">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/EventName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/ic_event_note_green_24dp"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/background_round"
+                    android:padding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Event Name"/>
+                <EditText
+
+                    android:id="@+id/eventAddressET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_round"
+                    android:drawableLeft="@drawable/ic_add_location_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="Address"/>
+                <EditText
+
+                    android:id="@+id/eventBudgetET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:padding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background_round"
+                    android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:hint="Budget"/>
+
+                <Button
+                    android:id="@+id/pic_start_date"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_round"
+                    android:clickable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:text="Start Date"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text2_has" />
+                <Button
+                    android:id="@+id/pic_end_date"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_round"
+                    android:clickable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:text="End Date"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text2_has" />
+                <Button
+                    android:visibility="gone"
+                    android:id="@+id/openMapbtn"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_round"
+                    android:clickable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:text="OpenMap"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text2_has" />
+
+
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+</layout>

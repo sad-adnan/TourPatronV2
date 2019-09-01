@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TourPatron</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="event">Event</string>
+    <string name="profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="required_field">This field is required</string>
+    <string name="googleKey">394990222965-kvvn4eg7ueslck8n5i6db2p56gjvfuke.apps.googleusercontent.com</string>
+    <string name="currentWeatherApi">658d942fe21f6ec95b7e775d29a59ab8</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nearby_place_api_key">AIzaSyAhhs5d4tu_2L1CZXZn_7VjYEZSs-ETAfQ</string>
+    <string name="weatherApi_get_from_sir">380199723cebdb85ef2e16cc30cee5b6</string>
+</resources>

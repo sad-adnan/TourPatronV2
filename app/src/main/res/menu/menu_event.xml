@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pw.sadbd.tourpatron.EventActivity">
+    <item
+        android:id="@+id/mapOPen"
+        android:orderInCategory="100"
+        android:title="Map"
+        android:icon="@drawable/ic_map_black_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/deleteevent"
+        android:orderInCategory="100"
+        android:title="delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="always" />
+</menu>

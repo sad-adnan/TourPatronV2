@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:background="@color/background_has"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/blackfortext"
+            android:text="Add Expense"/>
+        <EditText
+            android:id="@+id/expenseNmae"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_shopping_cart_black_24dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/background_round"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:hint="Expense Name"/>
+        <EditText
+
+            android:id="@+id/costNameA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:background="@drawable/background_round"
+            android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Cost"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/closeButton"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/background_round_green"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                android:text="Cansel"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/expenseAddbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:background="@drawable/background_round_green"
+                android:textColor="@color/white"
+                android:clickable="true"
+                android:foreground="?selectableItemBackground"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="Add"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

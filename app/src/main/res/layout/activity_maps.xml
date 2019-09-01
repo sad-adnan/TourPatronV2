@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout >
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="pw.sadbd.tourpatron.MapsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="55dp"
+                />
+
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+
+            android:id="@+id/bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:behavior_hideable="true"
+            app:behavior_peekHeight="55dp"
+
+
+            app:layout_behavior="@string/bottom_sheet_behavior">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+               <LinearLayout
+
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+
+                  >
+                   <TextView
+
+                       android:layout_width="0dp"
+                      android:layout_weight="1"
+                       android:layout_height="wrap_content"
+                       android:text="Nearby "
+                       android:textSize="20dp"
+                       android:padding="10dp"
+                       android:gravity="center"
+                      />
+                   <Spinner
+                       android:id="@+id/bottomSpinner"
+                       android:layout_weight="2"
+                       android:layout_height="match_parent"
+                       android:layout_width="0dp"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:textSize="18dp"
+
+                       />
+               </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/nearbyRecycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

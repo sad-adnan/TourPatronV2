@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/eventCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    app:cardElevation="0dp"
+    android:foreground="?selectableItemBackground"
+    app:cardBackgroundColor="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/eventrowImg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/no_image"/>
+
+        <TextView
+            android:id="@+id/row_event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/blackfortext"
+            android:text="Event Name"/>
+        <TextView
+            android:id="@+id/row_envet_start_date"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start 12 May 2019"/>
+        <TextView
+            android:id="@+id/row_event_end_date"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content"
+            android:text="End 4 Jun 2019"/>
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/row_event_days"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 Days Left"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+</layout>
