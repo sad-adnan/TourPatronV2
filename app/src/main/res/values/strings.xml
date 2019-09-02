@@ -18,6 +18,6 @@
     <string name="googleKey">394990222965-kvvn4eg7ueslck8n5i6db2p56gjvfuke.apps.googleusercontent.com</string>
     <string name="currentWeatherApi">658d942fe21f6ec95b7e775d29a59ab8</string>
     <string name="title_activity_maps">Map</string>
-    <string name="nearby_place_api_key">AIzaSyAhhs5d4tu_2L1CZXZn_7VjYEZSs-ETAfQ</string>
+    <string name="nearby_place_api_key">AIzaSyCKJGGKkMp_zofIJfUKI0_vPhkx-YV5BLw</string>
     <string name="weatherApi_get_from_sir">380199723cebdb85ef2e16cc30cee5b6</string>
 </resources>
