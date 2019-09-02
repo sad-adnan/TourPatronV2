@@ -18,7 +18,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/background_round_green">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/row_member_image"
@@ -28,7 +30,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            tools:src="@drawable/tonmoy"
+            tools:src="@drawable/profile"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -42,8 +44,8 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_toRightOf="@id/row_member_image"
-            tools:text="Mohimenu Islam Tonmoy"
-            android:textColor="@color/blackfortext"
+            tools:text="MD. Sad Adnan"
+            android:textColor="@color/white"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -53,12 +55,13 @@
         <TextView
             android:id="@+id/row_userEmail"
             android:layout_width="0dp"
+            android:textColor="@color/white"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_toRightOf="@id/row_member_image"
-            tools:text="tonmoy@gmail.com"
+            tools:text="adnan@gmail.com"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/row_member_image"
             app:layout_constraintTop_toBottomOf="@+id/member_row_name" />
@@ -72,7 +75,7 @@
 
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:background="@color/white"
+            android:background="@drawable/background_round"
             android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

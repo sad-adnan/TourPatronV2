@@ -5,10 +5,11 @@
     <color name="colorAccent">#8ec84d</color>
     <color name="black">#3a3a3a</color>
     <color name="blackfortext">#252525</color>
-    <color name="background_has">#e6e6e6</color>
+    <color name="background_has">#77ACD6</color>
     <color name="text_has">#b8b8b8</color>
     <color name="text2_has">#8F8D8D</color>
     <color name="green">#8ec84d</color>
+    <color name="asmani">#34ADDD</color>
     <color name="red">#F44336</color>
     <color name="white">#fafafa</color>
     <color name="hasVeryLow">#f9d6d6d6</color>

@@ -16,7 +16,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_round_has">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/row_member_image_bottom"
@@ -26,7 +27,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            tools:src="@drawable/tonmoy"
+            tools:src="@drawable/profile"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -40,12 +41,12 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_toRightOf="@id/row_member_image_bottom"
-            android:textColor="@color/blackfortext"
             android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/checkBox_bottom"
             app:layout_constraintStart_toEndOf="@+id/row_member_image_bottom"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="Mohimenu Islam Tonmoy" />
+            tools:text="MD. Sad Adnan"
+            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/row_userEmail_bottom"
@@ -55,7 +56,8 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_toRightOf="@id/row_member_image_bottom"
-            tools:text="tonmoy@gmail.com"
+            tools:text="adnan@gmail.com"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toStartOf="@+id/checkBox_bottom"
             app:layout_constraintStart_toEndOf="@+id/row_member_image_bottom"
             app:layout_constraintTop_toBottomOf="@+id/member_row_name_bottom" />

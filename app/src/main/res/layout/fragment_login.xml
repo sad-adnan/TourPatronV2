@@ -54,7 +54,9 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             style="?android:attr/borderlessButtonStyle"
-            android:text="Login"/>
+            android:text="Login"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/CreateAccountTV"
@@ -66,7 +68,7 @@
             android:padding="5dp"
             android:textSize="18sp"
             android:gravity="center"
-            android:textColor="@color/green"
+            android:textColor="@color/white"
             android:textStyle="bold"/>
         <Button
             android:id="@+id/loginwithgoogleBtn"

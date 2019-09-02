@@ -8,14 +8,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="pw.sadbd.tourpatron.EventActivity">
+    tools:context="pw.sadbd.tourpatron.EventActivity"
+    android:background="#78B4E6">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/appbar_padding_top"
-        android:background="@color/white"
+        android:background="#044C88"
         android:theme="@style/AppTheme.NoActionBar.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
@@ -30,7 +31,7 @@
             app:theme="@style/ToolbarIconColor"
             app:title="Event"
             app:titleTextAppearance="@style/toolbarText"
-            app:titleTextColor="@color/black"
+            app:titleTextColor="@color/white"
             >
 
         </androidx.appcompat.widget.Toolbar>

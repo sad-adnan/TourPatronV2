@@ -15,7 +15,8 @@
     >
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_round_has">
 
         <ImageView
             android:id="@+id/nearby_img"
@@ -46,7 +47,7 @@
             android:id="@+id/nearby_status"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-
+            android:textColor="@color/white"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:paddingLeft="5dp"

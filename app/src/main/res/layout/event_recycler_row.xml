@@ -7,10 +7,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardCornerRadius="10dp"
-    android:layout_marginTop="10dp"
     app:cardElevation="0dp"
     android:foreground="?selectableItemBackground"
-    app:cardBackgroundColor="@color/white">
+    app:cardBackgroundColor="#E4DEDE"
+    android:layout_margin="10dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,8 +18,8 @@
         <ImageView
             android:id="@+id/eventrowImg"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:scaleType="centerCrop"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
             app:srcCompat="@drawable/no_image"/>
 
         <TextView
@@ -27,9 +27,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:gravity="center"
-            android:textColor="@color/blackfortext"
+            android:textColor="#1D3BE2"
             android:text="Event Name"/>
         <TextView
             android:id="@+id/row_envet_start_date"
@@ -38,7 +38,8 @@
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Start 12 May 2019"/>
+            android:text="Start 28 August 2019"
+            android:textColor="#0A700E"/>
         <TextView
             android:id="@+id/row_event_end_date"
             android:paddingRight="5dp"
@@ -47,7 +48,8 @@
             android:gravity="center"
             android:paddingBottom="5dp"
             android:layout_height="wrap_content"
-            android:text="End 4 Jun 2019"/>
+            android:text="End 4 September 2019"
+            android:textColor="#F32414"/>
         <TextView
             android:visibility="gone"
             android:id="@+id/row_event_days"

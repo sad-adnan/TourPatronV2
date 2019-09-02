@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context="pw.sadbd.tourpatron.ProfileFragment"
-        android:background="@color/white"
+        android:background="@drawable/background_round_green"
         >
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -73,14 +73,15 @@
             android:layout_width="wrap_content"
             android:layout_height="43dp"
             android:layout_marginTop="16dp"
-            android:background="@drawable/background_round_green"
+            android:background="@drawable/background_round_has"
             android:text="Update"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.489"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/prfilephone" />
+            app:layout_constraintTop_toBottomOf="@+id/prfilephone"
+            android:textSize="20sp"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

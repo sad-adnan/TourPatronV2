@@ -9,7 +9,7 @@
     app:cardCornerRadius="10dp"
     app:cardElevation="0dp"
     android:layout_margin="5dp"
-    >
+    app:cardBackgroundColor="#E9E2E2">
 
     <androidx.constraintlayout.widget.ConstraintLayout
 
@@ -21,14 +21,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-
             android:drawableLeft="@drawable/thermometer16"
             android:drawablePadding="5dp"
             android:paddingLeft="10sp"
-
             android:paddingRight="10sp"
             android:text="25 °C"
-            android:textColor="@color/text2_has"
+            android:textColor="#0A32F8"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.518"
@@ -39,12 +37,11 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:drawableLeft="@drawable/humidity16"
             android:drawablePadding="10dp"
             android:padding="5dp"
             android:text="88 %"
-            android:textColor="@color/text2_has"
+            android:textColor="#0A32F8"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +52,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:background="@color/green"
+            android:background="@color/asmani"
 
             android:gravity="center"
             android:padding="2dp"
